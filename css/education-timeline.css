@@ -1,0 +1,46 @@
+.horizontal-timeline .items {
+    border-top: 3px solid #0F4C75;
+}
+
+.horizontal-timeline .items .items-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+
+.horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #0F4C75;
+    top: 0;
+}
+
+.horizontal-timeline .items .items-list .event-date {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    width: 110px;
+    margin: 0 auto;
+    font-size: .9rem;
+    padding-top: 8px;
+}
+    
+@media (min-width: 1140px) {
+    .horizontal-timeline .items .items-list {
+        display: inline-block;
+        width: 48%; /* Change this to add more elemets to timeline*/
+        padding-top: 45px;
+    }
+    
+    .horizontal-timeline .items .items-list .event-date {
+    top: -40px;
+    }
+}
+
+.event-date{
+    background-color: #3282B8;
+}
