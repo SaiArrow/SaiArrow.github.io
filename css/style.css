@@ -9,9 +9,15 @@ body {
     background-color: #F9F7F7;
 }
 
+#profilePic {
+    max-height: 250px;
+    max-width: 250px;
+    border-radius : 10px;
+    margin : 5px;
+}
 
 #intro {
-    background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
+    background-image: url("https://addons-media.operacdn.com/media/CACHE/images/themes/35/178835/1.1-rev1/images/b077a974-8423-4c55-8ac7-6dcb3fbf66c6/a0aadf9c6685fb90cace15bb1c649f90.jpg");
     height: 110vh;
 }
 
